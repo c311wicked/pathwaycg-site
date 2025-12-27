@@ -195,12 +195,12 @@ button:hover{background:var(--brand2)}
   gap:12px;
 }
 .brandlogo{
-  width:46px;
+  width:184px;
   height:auto;
   display:block;
 }
 @media (max-width:860px){
-  .brandlogo{width:40px}
+  .brandlogo{width:120px}
 }
 .hero{
   background: linear-gradient(180deg, rgba(15,45,82,0.06), rgba(255,255,255,0));
@@ -258,4 +258,15 @@ button:hover{background:var(--brand2)}
 }
 @media (max-width:860px){
   .related img{height:20px}
+}
+
+/* Header accommodates larger logo */
+.nav{
+  align-items:flex-start;
+}
+.navlinks{
+  padding-top:6px;
+}
+@media (max-width:860px){
+  .navlinks{padding-top:10px}
 }
