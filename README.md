@@ -67,3 +67,18 @@ To enable:
 - Home hero text: `index.html`
 - Address/phone/email appear in all pages (embedded in HTML for simplicity)
 
+
+
+## Logos & favicon
+- Header logo file: `images/pathwaycg-logo.png`
+- Favicon: `favicon.ico`
+To replace the logo, overwrite `images/pathwaycg-logo.png` with your new file (keep the same name).
+
+## Related-site logos
+These files are used for the “Related sites” buttons:
+- `images/pathway-tax-financial.png`
+- `images/pathway-advisors.png`
+
+To change them, overwrite the PNG files (keep the same filenames).
+
+- `images/vantage-tax.png` (converted from SVG)
