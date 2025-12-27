@@ -3,9 +3,9 @@
   --ink:#111827;
   --muted:#4b5563;
   --line:#e5e7eb;
-  --brand:#0f2d52; /* conservative navy */
-  --brand2:#1f4b7a;
-  --accent:#c79a2b; /* warm gold accent */
+  --brand:#082742; /* deep ocean navy */
+  --brand2:#0b5c7a; /* ocean teal */
+  --accent:#1aa6b7; /* sea accent */
   --card:#f9fafb;
   --max:1100px;
   --radius:14px;
@@ -195,12 +195,12 @@ button:hover{background:var(--brand2)}
   gap:12px;
 }
 .brandlogo{
-  width:184px;
+  width:150px;
   height:auto;
   display:block;
 }
 @media (max-width:860px){
-  .brandlogo{width:120px}
+  .brandlogo{width:110px}
 }
 .hero{
   background: linear-gradient(180deg, rgba(15,45,82,0.06), rgba(255,255,255,0));
@@ -269,4 +269,42 @@ button:hover{background:var(--brand2)}
 }
 @media (max-width:860px){
   .navlinks{padding-top:10px}
+}
+
+/* ---- Formal + ocean theme enhancements ---- */
+h1,h2,h3{
+  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+  letter-spacing:-0.01em;
+}
+.pill{
+  background: linear-gradient(180deg, var(--brand), var(--brand2));
+}
+.pill:hover{
+  filter: brightness(1.05);
+}
+.hero{
+  background:
+    radial-gradient(1200px 600px at 10% 0%, rgba(26,166,183,0.16), rgba(255,255,255,0) 60%),
+    radial-gradient(900px 500px at 90% 10%, rgba(8,39,66,0.12), rgba(255,255,255,0) 55%),
+    linear-gradient(180deg, rgba(11,92,122,0.08), rgba(255,255,255,0));
+}
+.section.alt{
+  background:
+    linear-gradient(180deg, rgba(8,39,66,0.04), rgba(255,255,255,0)),
+    #f7fbfd;
+}
+.card::before{
+  background: linear-gradient(90deg, rgba(26,166,183,0.95), rgba(11,92,122,0.95));
+}
+.panel{
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.9), rgba(247,251,253,1));
+}
+.notice{
+  border-left:4px solid rgba(11,92,122,0.55);
+  padding-left:12px;
+}
+.footer{
+  background:
+    linear-gradient(180deg, rgba(8,39,66,0.04), rgba(255,255,255,0));
 }
