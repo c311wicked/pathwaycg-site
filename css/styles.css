@@ -230,11 +230,11 @@ button:hover{background:var(--brand2)}
 }
 
 /* Related-site logo links */
-.related{
-  display:flex;
-  flex-wrap:wrap;
-  gap:12px 14px;
-  margin-top:10px;
+.related {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    align-items: center;
 }
 .related a{
   display:inline-flex;
